@@ -8,3 +8,183 @@
 
 
 /* Стили для мобильных экранов */
+
+
+h1 {
+    font-family: Roboto Slab;
+    font-style: bold;
+    font-weight: 365px;
+    font-size: 55px;
+    line-height: 56px;
+    color: black;
+    align-content: left;
+    padding-left: 121px;
+    }
+    
+    
+div {
+display: block;
+
+}
+
+    .first {
+        font-family: Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: black;
+        text-align: left;
+        box-sizing: content-box;
+        padding-left: 121px;
+        padding-right: 657px;
+        }
+        
+        
+        .second {
+            font-family: Roboto;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 36px;
+            color: black;
+            text-align: left;
+            box-sizing: border-box;
+            padding-left: 121px;
+            padding-right: 657px;
+        }
+
+        .one {
+           font-weight: 314px;
+           height: 315px;
+           padding-left: 973px;
+           padding-right: 153px;
+           float: left;
+        }
+
+
+
+        img {
+            position: absolute;
+            width: 314px;
+            display: block;
+            height: 315px;
+            padding-bottom: 1175px;
+            margin-left: 1000px;
+            align-items: right;  
+
+        }
+       
+
+        .two {
+
+            position: absolute;
+            width: 232px;
+            display: block;
+            height: 203px;
+            padding-bottom: 1619px;
+            margin-left: 121px;
+            align-items: left; 
+            background: url(); 
+            margin-top: 94px;
+            justify-content: space-around;
+
+        }
+        
+
+        .container {
+
+            display: flex;
+            flex-direction: row;
+	        width: 100%;
+	        
+        }
+
+        .eght {
+            font-family: Roboto;
+            font-weight: 150px;
+            height: 39px;
+            padding-left: 485px;
+            padding-right: 153px;
+            float: right;
+            margin-top: 164px;
+            margin-left: 100px;
+            align-items: left;  
+           
+        }
+
+        h3,h3,h3 {
+           font-size: 25px;
+           font-weight: bold;
+           line-height: 130%;
+           font-style: normal;
+        }
+
+        p,p,p {
+           font-size: 18px;
+           font-family: Roboto;
+           line-height: 130%;
+
+        }
+
+
+        .too {
+
+            font-family: Roboto;
+            font-weight: 150px;
+            height: 39px;
+            padding-left: 0px;
+            padding-right: 10px;
+            float: right;
+            margin-top: 164px;
+            margin-left: 100px;
+            align-items: center; 
+
+        }
+
+
+        .three {
+
+            font-family: Roboto;
+            font-weight: 150px;
+            height: 39px;
+            padding-left: 93px;
+            padding-right: 10px;
+            float: right;
+            margin-top: 164px;
+            margin-left: 100px;
+            align-items: center; 
+
+        }
+        
+
+
+
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+
+            
+                body {
+                    flex-direction: row;
+                }
+                
+                .eght .too .three {
+                    width: 90%;
+                }
+                
+                }
+                
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+           
+        
+    
