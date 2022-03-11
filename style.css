@@ -10,20 +10,23 @@
 /* Стили для мобильных экранов */
 
 
+
 h1 {
     font-family: Roboto Slab;
-    font-style: bold;
-    font-weight: 365px;
+    font-style: normal;
+    width: 365px;
     font-size: 55px;
     line-height: 56px;
     color: black;
-    align-content: left;
+    align-content: center;
     padding-left: 121px;
     }
     
     
-div {
+div 
+{
 display: block;
+
 
 }
 
@@ -55,7 +58,7 @@ display: block;
         }
 
         .one {
-           font-weight: 314px;
+           width: 314px;
            height: 315px;
            padding-left: 973px;
            padding-right: 153px;
@@ -71,24 +74,43 @@ display: block;
             height: 315px;
             padding-bottom: 1175px;
             margin-left: 1000px;
-            align-items: right;  
-
+                  
         }
        
+       
+        .ellips {
+            position: absolute;
+            width: 366px;
+            height: 59px;
+            margin-bottom: 1179px;
+            margin-top: 312px;  
+           
+        }
+    
+
 
         .two {
-
             position: absolute;
             width: 232px;
             display: block;
             height: 203px;
             padding-bottom: 1619px;
             margin-left: 121px;
-            align-items: left; 
-            background: url(); 
+            align-items: center; 
             margin-top: 94px;
             justify-content: space-around;
+            
+        }
 
+
+        .litle {
+
+            position: absolute;
+            width: 189px;
+            height: 32px;
+            margin-top: 295px; 
+            margin-left: 150px; 
+            
         }
         
 
@@ -96,20 +118,22 @@ display: block;
 
             display: flex;
             flex-direction: row;
-	        width: 100%;
-	        
+	        width: 100%;  
+               
         }
+
+
 
         .eght {
             font-family: Roboto;
-            font-weight: 150px;
+            width: 150px;
             height: 39px;
             padding-left: 485px;
             padding-right: 153px;
             float: right;
             margin-top: 164px;
             margin-left: 100px;
-            align-items: left;  
+            align-items: center;  
            
         }
 
@@ -131,7 +155,7 @@ display: block;
         .too {
 
             font-family: Roboto;
-            font-weight: 150px;
+            width: 150px;
             height: 39px;
             padding-left: 0px;
             padding-right: 10px;
@@ -146,7 +170,7 @@ display: block;
         .three {
 
             font-family: Roboto;
-            font-weight: 150px;
+            width: 150px;
             height: 39px;
             padding-left: 93px;
             padding-right: 10px;
@@ -160,19 +184,73 @@ display: block;
 
 
 
-        @media screen and (min-width: 992px) and (max-width: 1199px) {
+        @media  (max-width: 1279px) {
 
+.wrapper{
+    font-family: Roboto;
+    width: 100%;
+    max-width: 834px;
+    margin: auto;
+
+    
+    
+}
+
+     .h1 {
+
+        font-family: Roboto;
+        box-sizing: border-box;
+        padding-top: 20px;
+        margin: auto;
+}
+
+      .first, .second {
+
+        font-family: Roboto;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 20px;
+        
+      }
+
+      .container {
+
+width: 900px;
+
+      }
+
+      img {
+          padding-left: 20px;
+      }
+
+      .ellips {
+        padding-right: 20px;
+
+      }
+
+      .eght,  .too, .three {
+
+        font-family: Roboto;
+        
+        padding-top: 20px;
+        margin: auto;
+        
+      }
             
-                body {
-                    flex-direction: row;
                 }
                 
-                .eght .too .three {
-                    width: 90%;
-                }
                 
-                }
-                
+
+
+             @media  (max-width:991px) {
+                 .wrapper{
+
+                max-width: 375px;
+                width: 100%;
+                margin: auto;
+
+                 }    
+             }   
 
 
 
