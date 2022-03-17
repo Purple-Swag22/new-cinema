@@ -8,3 +8,80 @@
 
 
 /* Стили для мобильных экранов */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    min-width: 1280px;
+    width: 89%;
+    margin:auto;
+}
+.done, .one, .two{
+flex-direction: row;
+}
+.info{
+margin-bottom: 50px;
+font-family: Roboto slab;
+font-size: 55px;
+line-height: 55.76px;
+font-weight: 700 bold;
+color:#000000;
+}
+.what, .time{
+font-size: 25px;
+font-weight: 700 bold;
+line-height: 32.5px;
+font-family: Roboto;
+color:#1E4681;
+margin-top: 139px;
+}
+.dog, .cat, .hamster{
+font-size: 18px;
+font-weight: 400;
+font-family: Roboto;
+line-height: 23.4px;
+color: #000000;
+
+}
+.more{
+font-size: 55px;
+font-family: Roboto slab;
+font-weight: 700 bold;
+line-height: 55.76px ;
+margin-top: 340px;
+margin-bottom: 80px;
+}
+ul{
+font-size: 24px;
+font-family: Roboto;
+line-height: 36px;
+color:#000000;
+}
+.what{
+margin-right:195px;
+}
+.time{
+margin-right: 170px;
+}
+.second{
+font-size: 25px;
+font-weight: 700 bold;
+line-height: 32.5px;
+font-family: Roboto;
+color:#1E4681;
+padding-top: 100px;
+}
+.info, .more{
+margin-left: 121px;
+margin-top: 162px;
+}
+.what, li{
+margin-left: 122px;
+}
+.dog{
+margin-left: 122px;
+}
