@@ -2,6 +2,66 @@
 @import './fonts.css';
 
 /* Стили по умолчанию (десктоп) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Roboto Slab, serif;
+    font-size: 55px;
+    margin-left: 37px;
+}
+
+.all {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    padding-left: 84px;
+    padding-right: 85px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 27%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.png {
+    width: 100%;
+}
+
+.first-block {
+    min-height: 168px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.first {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.first-info {
+    font-size: 25px;
+    margin-left: 19px;
+}
 
 
 /* Стили для планшета */
