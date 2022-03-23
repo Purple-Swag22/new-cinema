@@ -17,27 +17,29 @@
 
 body {
     font-family: Roboto, sans-serif;
-    margin: 0px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 50px;  
+   
 }
 
-h1 {
-    font-family: Roboto Slab, serif;
-    font-size: 55px;
-    margin-left: 37px;
-}
+
 
 .all {
-    max-width: 1600px;
-    width: 100%;
-    margin: auto;
-    padding-left: 84px;
-    padding-right: 85px;
+max-width: 1600px;
+width: 100%;
+margin: auto;
+padding-left: 84px;
+padding-right: 85px;
+
 }
 
 .blocks {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+
 
 .item {
     width: 27%;
@@ -56,176 +58,118 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 20px;
 
 }
 
 .first {
     font-size: 30px;
-    margin-left: 20px;
+    
 }
 
 .first-info {
     font-size: 25px;
-    margin-left: 19px;
+   
 }
 
 /* Стили для планшета */
 
 /* Стили для мобильных экранов */
 
-h1 {
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 50px;  
+   
+}
+
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+h2 {
   font-family: Roboto Slab;
-  font-style: normal;
-  width: 365px;
   font-size: 55px;
-  line-height: 56px;
-  color: black;
-  align-content: center;
-  padding-left: 121px;
+  max-width: 670px;
+  padding: 0px 30px 30px 30px;
 }
 
 div {
-  display: block;
+
+    display:flex;
+    justify-content: space-between;
+    max-width: 670px;
+    
 }
 
-ul {
+.text{
+    margin-bottom: 20px;
+}
+
+
+div {
+    display: block;
+}
+
+.text {
   font-size: 24px;
-  font-family: Roboto;
-  line-height: 36px;
-  color: #000000;
-}
-
-.first {
-  font-family: Roboto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: black;
-  text-align: left;
-  box-sizing: content-box;
-  padding-left: 121px;
-  padding-right: 657px;
-}
-
-.second {
-  font-family: Roboto;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: black;
-  text-align: left;
-  box-sizing: border-box;
-  padding-left: 121px;
-  padding-right: 657px;
-}
-
-.one {
-  width: 17.4%;
-}
-
-img {
-  position: absolute;
-  width: 314px;
-  display: block;
-  height: 315px;
-  padding-bottom: 1175px;
-  margin-left: 1000px;
-}
-
-.ellips {
-  position: absolute;
-  width: 366px;
-  height: 59px;
-  margin-bottom: 1179px;
-  margin-top: 312px;
-}
-
-.two {
-  width: 21.15%;
-  margin-left: 121px;
-}
-
-.done {
-  width: 19.1%;
-  margin-left: 113px;
-}
-
-.litle {
-  position: absolute;
-  width: 189px;
-  height: 32px;
-  margin-top: 295px;
-  margin-left: 150px;
+  line-height: 36px; 
+  
 }
 
 .container {
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  align-items: center;
+  padding: 20px 50px;
+  margin-left: 150px;
+   
+}
+
+
+h3 {
+  font-size: 20px;  
+}
+
+
+p {     
+  font-family: Roboto; 
+  line-height: 130%;
+  
 }
 
 .eght {
-  font-family: Roboto;
-  width: 150px;
-  height: 39px;
-  padding-left: 485px;
-  padding-right: 153px;
-  float: right;
-  margin-top: 164px;
-  margin-left: 100px;
-  align-items: center;
+    max-width: 150px;
+    margin-left: 100px;
+    display:block;
+    
 }
 
-h3,
-h3,
-h3 {
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 130%;
-  font-style: normal;
-}
 
-p,
-p,
-p {
-  font-size: 18px;
-  font-family: Roboto;
-  line-height: 130%;
-}
 
-.too {
-  font-family: Roboto;
-  width: 150px;
-  height: 39px;
-  padding-left: 0px;
-  padding-right: 10px;
-  float: right;
-  margin-top: 164px;
-  margin-left: 100px;
-  align-items: center;
-}
 
-.three {
-  font-family: Roboto;
-  width: 150px;
-  height: 39px;
-  padding-left: 93px;
-  padding-right: 10px;
-  float: right;
-  margin-top: 164px;
-  margin-left: 100px;
-  align-items: center;
-}
-
-.about,
 .format-container {
-  min-width: 1280px;
-  max-width: 1600px;
-  width: 89%;
-  margin: auto;
+  display: flex;
+  
 }
+
+
+ul {
+    font-size: 24px;
+    font-family: Roboto;
+    line-height: 36px;
+    color: #000000;
+  }
+
+
+  .one {
+    width: 300px;
+  }
+  
 
 .info {
   margin-bottom: 50px;
@@ -233,7 +177,7 @@ p {
   font-size: 55px;
   line-height: 55.76px;
   font-weight: 700 bold;
-  color: #000000;
+  
 }
 .what,
 .time {
@@ -267,35 +211,38 @@ p {
   font-family: Roboto;
   color: #1e4681;
 }
+
 .info,
 .more {
   margin-left: 121px;
   margin-top: 162px;
 }
 
+
+
 .format-container {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  padding: 0px 50px 20px 0px;
+  
+ 
+  
 }
 
 @media (max-width: 1279px) {
   .wrapper {
     font-family: Roboto;
-    width: 100%;
     max-width: 834px;
     margin: auto;
   }
 
   .h1 {
-    font-family: Roboto;
     box-sizing: border-box;
     padding-top: 20px;
     margin: auto;
   }
 
-  .first,
-  .second {
-    font-family: Roboto;
+  .text {
     box-sizing: border-box;
     margin: auto;
     padding: 20px;
@@ -305,28 +252,13 @@ p {
     width: 900px;
   }
 
-  img {
-    padding-left: 20px;
-  }
-
-  .ellips {
-    padding-right: 20px;
-  }
-
-  .eght,
-  .too,
-  .three {
+  .eght {
     font-family: Roboto;
-
     padding-top: 20px;
     margin: auto;
   }
 }
 
-@media (max-width: 991px) {
-  .wrapper {
-    max-width: 375px;
-    width: 100%;
-    margin: auto;
-  }
-}
+
+ 
+
