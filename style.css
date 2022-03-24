@@ -15,28 +15,17 @@
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: Roboto, sans-serif;
-     
-   
+    font-family: Roboto, sans-serif; 
 }
 
-
-
-.all {
-max-width: 1600px;
-width: 100%;
-margin: auto;
-padding-left: 84px;
-padding-right: 85px;
-
-}
 
 .blocks {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
-
 
 
 .item {
@@ -47,9 +36,11 @@ padding-right: 85px;
     margin: 15px;
 }
 
+
 .png {
     width: 100%;
 }
+
 
 .first-block {
     min-height: 168px;
@@ -57,17 +48,16 @@ padding-right: 85px;
     justify-content: space-between;
     flex-direction: column;
     padding: 20px;
-
 }
+
 
 .first {
     font-size: 30px;
-    
 }
 
+
 .first-info {
-    font-size: 25px;
-   
+    font-size: 25px; 
 }
 
 /* Стили для планшета */
@@ -78,12 +68,7 @@ padding-right: 85px;
 .wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 50px;  
-   
-}
-
-section {
-    
+    padding: 0 50px;   
 }
 
 
@@ -91,142 +76,84 @@ section {
 h2 {
   font-family: Roboto Slab;
   font-size: 55px;
-  
-  
 }
 
-div.gift {
-
+div.box {
     max-width: 670px;
 }
 
-div.about {
 
+div.about {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.text{
-    margin-bottom: 20px;
-}
-
-
-
 
 .text {
   font-size: 24px;
   line-height: 36px; 
-  
-  
+  margin-bottom: 20px;
 }
 
 .container {
   display: flex;
-  align-items: center;
- 
- 
-   
+  align-items: center; 
+  margin-bottom: 100px;
+  margin-top: 100px;
+  
 }
 
 
 h3 {
   font-size: 20px;  
+  margin-bottom: 10px;
 }
 
 
 p {     
   font-family: Roboto; 
   line-height: 130%;
-  
+  color: #000;
 }
 
 .eght {
+    display:block; 
     max-width: 150px;
-    margin-left: 100px;
-    display:block;
-    
+    margin-left: 100px;     
 }
 
 
-
-
 .format-container {
-  display: flex;
-  
+  display: flex;  
+  align-items: center; 
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  max-width: 980px;
 }
 
 
 ul {
-    font-size: 24px;
     font-family: Roboto;
-    line-height: 36px;
-    color: #000000;
+    font-size: 24px;    
   }
+
+
+.list {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 650px;
+}
 
 
   .one {
-    width: 300px;
+    max-width: 250px;
+    align-items: center;
+    color: #1E4681;
   }
   
 
-.info {
-  margin-bottom: 50px;
-  font-family: Roboto slab;
-  font-size: 55px;
-  line-height: 55.76px;
-  font-weight: 700 bold;
-  
-}
-.what,
-.time {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 32.5px;
-  font-family: Roboto;
-  color: #1e4681;
-}
-.dog,
-.cat,
-.hamster {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: Roboto;
-  line-height: 23.4px;
-  color: #000000;
-}
-.more {
-  font-size: 55px;
-  font-family: Roboto slab;
-  font-weight: 700;
-  line-height: 55.76px;
-  margin-top: 340px;
-  margin-bottom: 80px;
-}
-.next {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 32.5px;
-  font-family: Roboto;
-  color: #1e4681;
-}
-
-.info,
-.more {
-  margin-left: 121px;
-  margin-top: 162px;
-}
-
-
-
-.format-container {
-  display: flex;
-  align-items: center;
-  padding: 0px 50px 20px 0px;
-  
- 
-  
-}
 
 @media (max-width: 1279px) {
   .wrapper {
@@ -235,11 +162,13 @@ ul {
     margin: auto;
   }
 
-  .h1 {
+
+  .h2 {
     box-sizing: border-box;
     padding-top: 20px;
     margin: auto;
   }
+
 
   .text {
     box-sizing: border-box;
@@ -247,9 +176,11 @@ ul {
     padding: 20px;
   }
 
+
   .container {
     width: 900px;
   }
+
 
   .eght {
     font-family: Roboto;
