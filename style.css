@@ -84,26 +84,23 @@ padding-right: 85px;
    
 }
 
-
-
 section {
-    display: flex;
-    justify-content: space-between;
     padding: 0 50px;
 }
+
+
 
 h2 {
   font-family: Roboto Slab;
   font-size: 55px;
   max-width: 670px;
-  padding: 0px 30px 30px 30px;
+  margin-bottom: 0 0 0 20px;
 }
 
-div {
+div.about {
 
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    max-width: 670px;
     
 }
 
@@ -112,13 +109,12 @@ div {
 }
 
 
-div {
-    display: block;
-}
+
 
 .text {
   font-size: 24px;
   line-height: 36px; 
+  max-width: 670px;
   
 }
 
@@ -258,7 +254,6 @@ ul {
     margin: auto;
   }
 }
-
 
  
 
